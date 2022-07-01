@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    background-color: white;
+    max-width: 350px;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+#ava {
+    width: 110px;
+    border-radius: 50%;
+    transform: translate( 120px , -50%);
+    border: solid 7px white;
+}
+
+#nage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -60px 90px -25px 90px;
+}
+
+#nage h1 {
+    font-weight: 700;
+    font-size: 1.3em;
+    color: hsl(229, 23%, 23%);
+}
+
+#nage p {
+    font-weight:400;
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 59%);
+}
+
+#info {
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+#pos {
+    color: hsl(0, 0%, 59%);
+}
+
+hr {
+    border : 1px solid hsl(0, 0%, 90%);
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+}
+
+footer div h3 {
+    font-weight: 700;
+    margin-bottom: -10px;
+    color: hsl(229, 23%, 23%);
+}
+
+footer div p {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 0.8em;
+    margin-bottom: 25px;
+}
